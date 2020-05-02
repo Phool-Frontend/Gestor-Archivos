@@ -68,12 +68,11 @@
                         return '<video width="100%" autoplay="" src="'.$ruta.'" controls></video>';
                         break;
                     case 'xlsx':
-                        header("content-type: application/xls");
-                        return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com' .$rutaGoogle. '&embedded=true " style="width:550px; height:650px;" frameborder="0"></iframe>';
+                        return  '<script>window.open("https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com/'.$rutaGoogle.'","_self")</script>';
                         break;
                     case 'docx':
                         //Para documentos word Para xls agrandamos el iframe
-                        return  '<script>window.open("https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com/'.$rutaGoogle.'","_blank")</script>';
+                        return  '<script>window.open("https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com/'.$rutaGoogle.'","_self")</script>';
                         break;
                     
                         default:
