@@ -73,7 +73,7 @@
                         break;
                     case 'docx':
                         //Para documentos word Para xls agrandamos el iframe
-                        return  '<script>window.open("https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com/'.$rutaGoogle.'","_self")</script>';
+                        return  '<script>window.open("https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com/'.$rutaGoogle.'","_blank")</script>';
                         break;
                     
                         default:
