@@ -69,7 +69,7 @@
                         break;
                     case 'xlsx':
                         header("content-type: application/xls");
-                        return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com' .$rutaGoogle. ' " style="width:550px; height:650px;" frameborder="0"></iframe>';
+                        return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com' .$rutaGoogle. '&embedded=true " style="width:550px; height:650px;" frameborder="0"></iframe>';
                         break;
                     case 'docx':
                         //Para documentos word Para xls agrandamos el iframe
