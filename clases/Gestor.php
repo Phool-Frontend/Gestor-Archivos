@@ -70,7 +70,7 @@
                         return '<iframe src="http://docs.google.com/gview?url=http://www.snee.com/xml/xslt/sample.doc&embedded=true" style="width:500px; height:500px;" frameborder="0"></iframe>';
                         break;
                     case 'docx':
-                        return '<iframe src="http://docs.google.com/gview?url='.$ruta.'" style="width:600px; height:500px;" frameborder="0"></iframe>';
+                        return '<iframe src="https://docs.google.com/gview?url='.$ruta.' " style="width:550px; height:650px;" frameborder="0"></iframe>';
                         break;
                     
                         default:
