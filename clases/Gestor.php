@@ -72,7 +72,8 @@
                         return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com' .$rutaGoogle. ' " style="width:550px; height:650px;" frameborder="0"></iframe>';
                         break;
                     case 'docx':
-                        return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com' .$rutaGoogle. ' " style="width:550px; height:650px;" frameborder="0"></iframe>';
+                        //Para documentos word Para xls agrandamos el iframe
+                        return  '<script>window.open("https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com/'.$rutaGoogle.'","_self")</script>';
                         break;
                     
                         default:
