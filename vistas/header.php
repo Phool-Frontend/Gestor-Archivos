@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../librerias/fontawesome/css/all.css">
     <link rel="stylesheet" href="../css/gestor.css">
     <link rel="stylesheet" href="../librerias/datatable/dataTables.bootstrap4.min.css">
-    <link  rel="icon"   href="img/FacultadAutodidacta.ico" type="image/ico" />
+    <link  rel="icon"   href="../img/FacultadAutodidacta.ico" type="image/ico" />
 </head>
 <body style="background-color:#e9ecef">
 
