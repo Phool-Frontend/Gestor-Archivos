@@ -68,10 +68,10 @@
                         return '<video width="100%" autoplay="" src="'.$ruta.'" controls></video>';
                         break;
                     case 'xlsx':
-                        return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com/' .$rutaGoogle. ' " style="width:550px; height:650px;" frameborder="0"></iframe>';
+                        return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com' .$rutaGoogle. ' " style="width:550px; height:650px;" frameborder="0"></iframe>';
                         break;
                     case 'docx':
-                        return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com/' .$rutaGoogle. ' " style="width:550px; height:650px;" frameborder="0"></iframe>';
+                        return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com' .$rutaGoogle. ' " style="width:550px; height:650px;" frameborder="0"></iframe>';
                         break;
                     
                         default:
