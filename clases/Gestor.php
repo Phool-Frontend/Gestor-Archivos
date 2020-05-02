@@ -48,7 +48,8 @@
             public function tipoArchivo($nombre,$extension){
                 $idUsuario  = $_SESSION['idUsuario'];
 
-                $ruta = "../archivos/".$idUsuario."/".$nombre;
+                $ruta           = "../archivos/".$idUsuario."/".$nombre;
+                $rutaGoogle     = "/archivos/".$idUsuario."/".$nombre;
 
                 switch ($extension) {
                     case 'png':
@@ -67,10 +68,10 @@
                         return '<video width="100%" autoplay="" src="'.$ruta.'" controls></video>';
                         break;
                     case 'xlsx':
-                        return '<iframe src="http://docs.google.com/gview?url=http://www.snee.com/xml/xslt/sample.doc&embedded=true" style="width:500px; height:500px;" frameborder="0"></iframe>';
+                        return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com/' $rutaGoogle' " style="width:550px; height:650px;" frameborder="0"></iframe>';
                         break;
                     case 'docx':
-                        return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com/'.$ruta.' " style="width:550px; height:650px;" frameborder="0"></iframe>';
+                        return '<iframe src="https://docs.google.com/gview?url=https://gestor-archivos.herokuapp.com/' $rutaGoogle' " style="width:550px; height:650px;" frameborder="0"></iframe>';
                         break;
                     
                         default:
